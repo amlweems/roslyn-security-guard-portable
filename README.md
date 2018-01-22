@@ -8,7 +8,7 @@ allows it to be run from a Docker container against a directory of C# code.
 ## Build
 
 ```
-$ docker build -t roslyn-security-guard .
+$ docker build -t roslyn-security-guard-portable .
 ```
 
 ## Run
