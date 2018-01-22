@@ -175,6 +175,14 @@ XmlNode_SelectSingleNode:
 
 #Path traversal
 
+Path_Combine:
+  namespace: System.IO
+  className: Path
+  member: method
+  name: Combine
+  injectableArguments: 1
+  locale: SG0018
+
 #File API
 
 #Append
