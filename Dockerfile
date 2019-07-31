@@ -13,4 +13,4 @@ RUN dotnet publish -c Release -o out
 FROM microsoft/dotnet:runtime
 WORKDIR /app
 COPY --from=build-env /app/out ./
-ENTRYPOINT ["dotnet", "RoslynSecurityGuard.dll"]
+ENTRYPOINT ["dotnet", "/app/RoslynSecurityGuard.dll"]
